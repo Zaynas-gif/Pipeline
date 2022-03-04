@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-06T17:00:02 CET" name="Default suite" finished-at="2022-02-06T17:00:11 CET" duration-ms="8834">
+  <suite started-at="2022-03-04T09:33:24 CET" name="Default suite" finished-at="2022-03-04T09:33:30 CET" duration-ms="6005">
     <groups>
     </groups>
-    <test started-at="2022-02-06T17:00:02 CET" name="Default test" finished-at="2022-02-06T17:00:11 CET" duration-ms="8834">
-      <class name="Academy.HomePage">
-        <test-method signature="basePageNavigation()[pri:0, instance:Academy.HomePage@611889f4]" started-at="2022-02-06T17:00:02 CET" name="basePageNavigation" finished-at="2022-02-06T17:00:11 CET" duration-ms="8807" status="PASS">
+    <test started-at="2022-03-04T09:33:24 CET" name="Default test" finished-at="2022-03-04T09:33:30 CET" duration-ms="6005">
+      <class name="Academy.validateTitle">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.validateTitle@34a97744]" started-at="2022-03-04T09:33:24 CET" name="initialize" finished-at="2022-03-04T09:33:29 CET" duration-ms="5691" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-      </class> <!-- Academy.HomePage -->
+        </test-method> <!-- initialize -->
+        <test-method signature="validateAppTitle()[pri:0, instance:Academy.validateTitle@34a97744]" started-at="2022-03-04T09:33:29 CET" name="validateAppTitle" finished-at="2022-03-04T09:33:29 CET" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.validateTitle@34a97744]" started-at="2022-03-04T09:33:29 CET" name="teardown" finished-at="2022-03-04T09:33:30 CET" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.validateTitle -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
